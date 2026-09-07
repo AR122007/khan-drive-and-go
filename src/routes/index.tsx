@@ -45,8 +45,12 @@ export const Route = createFileRoute("/")({
   component: Index,
 });
 
-const PHONE_TEL = "tel:+923001234567";
-const PHONE_LABEL = "+92 300 1234567";
+const PHONE_TEL = "tel:+923214067150";
+const PHONE_LABEL = "+92 321 4067150";
+const WHATSAPP_TEL = "https://wa.me/923214067150";
+const WHATSAPP_LABEL = "+92 321 4067150";
+const TIKTOK_URL = "https://www.tiktok.com/@farrukhkhan216?_r=1&_t=ZN-99X1Tjz81ME";
+const TIKTOK_LABEL = "@farrukhkhan216";
 
 const FLEET = [
   {
