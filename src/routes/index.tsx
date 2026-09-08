@@ -40,7 +40,28 @@ export const Route = createFileRoute("/")({
           "Reliable rent-a-car and tour services. Sedans, SUVs, luxury 4x4s and vans — with or without a driver.",
       },
       { property: "og:type", content: "website" },
+      { property: "og:url", content: "https://khan-drive-and-go.lovable.app/" },
       { name: "twitter:card", content: "summary_large_image" },
+    ],
+    links: [{ rel: "canonical", href: "https://khan-drive-and-go.lovable.app/" }],
+    scripts: [
+      {
+        type: "application/ld+json",
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "AutoRental",
+          name: "KHAN MOTORS & TOURS",
+          url: "https://khan-drive-and-go.lovable.app/",
+          telephone: "+92 321 4067150",
+          address: {
+            "@type": "PostalAddress",
+            streetAddress: "Main GT Road",
+            addressCountry: "PK",
+          },
+          openingHours: "Mo-Su 00:00-24:00",
+          sameAs: ["https://www.tiktok.com/@farrukhkhan216"],
+        }),
+      },
     ],
   }),
   component: Index,
