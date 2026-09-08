@@ -12,3 +12,5 @@ Allow: /
 
 User-agent: *
 Allow: /
+
+Sitemap: https://khan-drive-and-go.lovable.app/sitemap.xml
