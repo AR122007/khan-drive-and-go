@@ -24,6 +24,7 @@ import carLuxury from "@/assets/car-luxury.jpg";
 import carCompact from "@/assets/car-compact.jpg";
 
 export const Route = createFileRoute("/")({
+  staticData: { sitemap: true },
   head: () => ({
     meta: [
       { title: "KHAN MOTORS & TOURS — Rent a Car" },
