@@ -20,7 +20,7 @@ import {
   PromptInputTextarea,
 } from "@/components/ai-elements/prompt-input";
 import { Shimmer } from "@/components/ai-elements/shimmer";
-import logoAsset from "@/assets/khan-tours-logo.jpeg.asset.json";
+
 
 const SUGGESTIONS = [
   "Which car is best for a family of 6?",
@@ -67,7 +67,7 @@ export function ChatWidget() {
         <div className="fixed inset-x-3 bottom-3 z-[60] flex h-[70vh] max-h-[560px] flex-col overflow-hidden rounded-2xl border border-border bg-card shadow-2xl sm:inset-x-auto sm:right-6 sm:bottom-24 sm:w-[380px]">
           <div className="flex items-center gap-3 border-b border-border bg-secondary/60 px-4 py-3">
             <img
-              src={logoAsset.url}
+              src="/khan-logo.png"
               alt="KHAN MOTORS & TOURS logo"
               className="h-9 w-9 rounded-full object-cover ring-2 ring-primary"
             />
