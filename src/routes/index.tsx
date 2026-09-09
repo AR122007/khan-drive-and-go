@@ -15,7 +15,6 @@ import {
 import { useState } from "react";
 
 import { ChatWidget } from "@/components/chat-widget";
-import logoAsset from "@/assets/khan-tours-logo.jpeg.asset.json";
 import heroCar from "@/assets/hero-car.jpg";
 import carSedan from "@/assets/car-sedan.jpg";
 import carSuv from "@/assets/car-suv.jpg";
@@ -424,7 +423,7 @@ function Index() {
           <div>
             <div className="flex items-center gap-3">
               <img
-                src={logoAsset.url}
+                src="/khan-logo.png"
                 alt="KHAN MOTORS & TOURS logo"
                 className="h-12 w-12 rounded-full object-cover ring-2 ring-primary"
               />

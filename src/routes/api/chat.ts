@@ -24,6 +24,7 @@ Rules:
 - Stay on the topic of car rentals and tours with KHAN MOTORS & TOURS.`;
 
 export const Route = createFileRoute("/api/chat")({
+  staticData: { sitemap: false },
   server: {
     handlers: {
       POST: async ({ request }) => {
