@@ -148,9 +148,9 @@ function Index() {
         <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6">
           <a href="#" className="flex items-center gap-3">
             <img
-              src={logoAsset.url}
-              alt="KHAN MOTORS & TOURS logo"
-              className="h-12 w-12 rounded-full object-cover ring-2 ring-primary"
+              src="/khan-logo.png"
+              alt="Khan Motors Logo"
+              className="h-10 w-auto object-contain"
             />
             <div className="leading-tight">
               <span className="block font-display text-lg font-extrabold tracking-wide">
